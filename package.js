@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Meteor wrapper for DataMaps - World Maps for D3.js",
-  version: "1.0.0",
+  version: "1.0.1",
   name: "hyperborea:datamaps",
   git: "https://github.com/hyperborea/meteor-datamaps.git",
 });
