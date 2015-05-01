@@ -1,0 +1,6 @@
+[submodule "datamaps"]
+	path = datamaps
+	url = https://github.com/markmarkoh/datamaps.git
+[submodule "topojson"]
+	path = topojson
+	url = https://github.com/mbostock/topojson.git

@@ -8,5 +8,5 @@ Package.describe({
 Package.onUse(function (api) {
   api.use('d3js:d3@3.5.5', 'client');
   api.addFiles('topojson/topojson.js', 'client');
-  api.addFiles('datamaps/dist/datamaps.world.js', 'client');
+  api.addFiles('datamaps/dist/datamaps.world.min.js', 'client');
 });
