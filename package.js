@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Meteor wrapper for DataMaps - World Maps for D3.js",
-  version: "1.0.1",
+  version: "1.0.2",
   name: "hyperborea:datamaps",
   git: "https://github.com/hyperborea/meteor-datamaps.git",
 });
@@ -8,5 +8,6 @@ Package.describe({
 Package.onUse(function (api) {
   api.use('d3js:d3@3.5.5', 'client');
   api.addFiles('topojson/topojson.js', 'client');
-  api.addFiles('datamaps/dist/datamaps.world.min.js', 'client');
+  api.addFiles('datamaps/dist/datamaps.all.min.js', 'client');
+  api.export('Datamap');
 });
