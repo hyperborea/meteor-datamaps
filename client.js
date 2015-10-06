@@ -1,0 +1,1 @@
+Datamap = window.Datamap;

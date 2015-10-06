@@ -1,4 +1,4 @@
 d3js:d3@3.5.5
-hyperborea:datamaps@1.0.0
-meteor@1.1.6
-underscore@1.0.3
+hyperborea:datamaps@1.0.5
+meteor@1.1.9
+underscore@1.0.4
